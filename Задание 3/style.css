@@ -1,0 +1,71 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  width: 360px;
+  height: 440px;
+  color: black;
+  background-color: white;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.cell {
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: white;
+  border: 2px solid black;
+  display: inline-flex;
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+.cell:hover {
+  border-color: red;
+}
+
+.Start {
+  margin: 10px;
+}
+
+.time {
+  margin: 10px;
+}
+
+/*ЦВЕТНЫЕ КАРТЫ*/
+/*Красный*/
+.RED {
+  background-image: url('./images/red.jpg');
+}
+/*Синий*/
+.BLU {
+  background-image: url('./images/blu.jpg');
+}
+/*Розовый*/
+.PINK {
+  background-image: url('./images/pink.jpg');
+}
+/*Желтый*/
+.YELLOW {
+  background-image: url('./images/yellow.jpg');
+}
+/*Зелёный*/
+.GREEN {
+  background-image: url('./images/green.jpg');
+}
+/*Серый*/
+.GRAY {
+  background-image: url('./images/gray.jpg');
+}
+/*Голубой*/
+.BLUE {
+  background-image: url('./images/blue.jpg');
+}
+/*Оранжевый*/
+.ORANGE {
+  background-image: url('./images/orange.jpg');
+}
+/*body {
+  background-color: black;
+}*/
